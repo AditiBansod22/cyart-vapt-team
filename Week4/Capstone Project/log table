@@ -1,0 +1,8 @@
+| Timestamp           | Target IP     | Vulnerability         | PTES Phase             |
+| ------------------- | ------------- | --------------------- | ---------------------- |
+| 2025-08-30 14:30:00 | 192.168.1.200 | Open FTP Service      | Reconnaissance         |
+| 2025-08-30 14:45:00 | 192.168.1.200 | VSFTPD 2.3.4 Backdoor | Vulnerability Analysis |
+| 2025-08-30 15:00:00 | 192.168.1.200 | VSFTPD RCE Exploit    | Exploitation           |
+| 2025-08-30 15:10:00 | 192.168.1.200 | Shell Access Gained   | Post-Exploitation      |
+| 2025-08-30 15:25:00 | 192.168.1.200 | SMB Weak Config       | Vulnerability Analysis |
+| 2025-08-30 15:40:00 | 192.168.1.200 | OpenVAS Scan          | Reporting              |
