@@ -1,0 +1,103 @@
+VAPT Assignment – Theoretical & Practical Work
+ Overview
+
+This repository contains my work for the Vulnerability Assessment and Penetration Testing (VAPT) assignment.
+The objective of this task is to understand the basics of security assessment, perform vulnerability scanning using open-source tools, and document the findings in a structured way.
+
+The assignment is divided into two parts:
+
+Theoretical Knowledge
+Practical Implementation
+ Theoretical Knowledge
+1. Understanding Security Assessment
+
+Security assessment is the process of identifying weaknesses in a system. It helps in understanding how secure a system is and what needs improvement.
+
+Different types of testing covered:
+
+Vulnerability Assessment – Finding known weaknesses using tools like OpenVAS
+Penetration Testing – Simulating real-world attacks using tools such as Nmap and Metasploit
+Compliance Testing – Checking whether systems follow standards like CIS benchmarks
+2. VAPT Methodology
+
+A structured approach was followed to perform testing:
+
+Planning – Defining scope and target systems
+Discovery – Scanning using tools like Nmap and OWASP ZAP
+Attack – Exploiting vulnerabilities (where applicable)
+Reporting – Documenting findings clearly
+3. Security Standards & Compliance
+
+Basic understanding of industry standards such as:
+
+GDPR
+HIPAA
+ISO 27001
+
+Also studied OWASP Top 10 to understand common web vulnerabilities.
+
+4. Risk Assessment Basics
+
+Learned how to prioritize vulnerabilities based on risk:
+
+Used CVSS scoring system
+Categorized risks into High, Medium, and Low
+Created a simple risk matrix
+5. Common Vulnerabilities
+
+Studied and practiced identifying:
+
+Network issues – Open ports, misconfigurations
+Web vulnerabilities – SQL Injection, XSS
+
+Used practice environments like vulnerable machines to understand real scenarios.
+
+6. Documentation Fundamentals
+
+Maintained proper documentation of findings using:
+
+Notes for observations
+Screenshots as proof
+Structured reporting format
+🛠️ Practical Implementation
+1. Environment Setup
+Installed Kali Linux
+Set up Metasploitable virtual machine
+Configured VirtualBox for testing
+2. Vulnerability Scanning
+
+Tools used:
+
+OpenVAS
+Nikto
+
+Performed scans on the target machine and collected:
+
+Open ports
+Running services
+Detected vulnerabilities
+3. Documentation of Findings
+
+Recorded the following details:
+
+Target IP address
+Open ports and services
+Description of vulnerabilities
+Supporting screenshots
+4. Risk Assessment
+Used CVSS scoring for each vulnerability
+Classified risks based on severity
+Prioritized issues for fixing
+5. Report Creation
+
+Prepared a detailed report including:
+
+Executive Summary
+Technical Findings
+Risk Analysis
+Remediation Suggestions
+
+ Repository Contents
+VAPT_Theoretical_Report.pdf – Theory part
+VAPT_Practical_Report.pdf – Practical work with screenshots
+README.md – Project overview
